@@ -1,0 +1,61 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 5%;
+    align-items: center;
+}
+
+.connectWalletBtn{
+    display: flex;
+    gap: 10px;
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: fit-content;
+}
+
+.mainLogoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.mainLogoWrapper img{
+    width: 90%;
+}
+
+.styledBtn1{
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: 150px;
+}
+
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
