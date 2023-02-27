@@ -1,0 +1,272 @@
+.MysteryBox{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 5%;
+    align-items: center;
+}
+
+.connectWalletBtn{
+    display: flex;
+    gap: 10px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.mainLogoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.mainLogoWrapper img{
+    width: 90%;
+}
+
+.mysteryBoxesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.buyMysteryBoxBtn{
+    display: flex;
+    gap: 10px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 35px;
+    width: -moz-fit-content;
+    width: fit-content;
+    align-self: end;
+    justify-self: center;
+}
+
+.mysteryBoxItem{
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mysteryBoxItem img{
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.saveTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 160%;
+    text-align: start;
+}
+
+.priceTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    text-align: start;
+    align-self: flex-end;
+}
+
+.highlightedPriceTxt{
+    background: linear-gradient(260.89deg, #FFC700 9.53%, #E35200 88.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.mysteryInfoTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+}
+
+.raritiesTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 160%;
+}
+
+.raritiesTxt span{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.raritiesIcon1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #FFFFFF 9.53%, rgba(182, 182, 182, 0.55) 88.93%);
+}
+
+.raritiesIcon2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #24B0FF 9.53%, rgba(4, 60, 169, 0.55) 88.93%);
+}
+
+.raritiesIcon3{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #B600E3 9.53%, rgba(100, 0, 227, 0.55) 88.93%);
+}
+
+.raritiesIcon4{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #FFC700 9.53%, #E35200 88.93%);
+}
+
+.raritiesIcon5{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(168, 0, 25, 0.55) 88.93%);
+}
+
+.raritiesIconWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.raritiesIconTxt1{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 100%;
+}
+
+.raritiesIconTxt2{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: start;
+}
+
+.raritiesIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.raritiesIconTxtWrapper{
+
+}
+
+.featureGrid{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featureItemWrapper1{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    width: 492.33px;
+    height: 270.67px;
+    padding: 5px;
+}
+
+.featureItemWrapper2{
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    height: 100%;
+}
+
+.featureItem{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    height: 100%;
+    padding: 10px 30px;
+    text-align: left;
+}
+
+.featureHeadingTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+}
+
+.featureDescTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+}
+
+.obtainableapesHeading{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+
+    text-align: center;
+}

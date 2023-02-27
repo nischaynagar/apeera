@@ -1,0 +1,303 @@
+.Token{
+    display: flex;
+    flex-direction: column;
+    padding: 2em 5%;
+    align-items: center;
+}
+
+.connectWalletBtn{
+    display: flex;
+    gap: 10px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.mainLogoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+}
+
+.mainLogoWrapper img{
+    width: 90%;
+}
+
+.styledBtn1{
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: 150px;
+}
+
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+.membercntTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 160%;
+}
+.membercntWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+    border: 8px solid #D30221;
+}
+
+.cntBox{
+    display: flex;
+    gap: 50px;
+}
+
+.memberdescTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+
+.collectBtn{
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.styledBtn1{
+    display: flex;
+    gap: 10px;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+
+.communityTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.communityWrapper{
+
+}
+
+.communityIconWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.communityIcon{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #97E0FF;
+}
+
+.tokenomicsGrid{
+    display: flex;
+    flex-direction: column;
+}
+
+.tokenomicsHeading{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+}
+
+.tokenomicsCard{
+    display: flex;
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+    border: 8px solid #D30221;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 30px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.tokenomicsGridRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tokenomicsCardHeading{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 160%;
+}
+
+.supplyTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+}
+
+.supplyDescTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.howtoBuyTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+}
+
+.howtoBuystepWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.buyStep{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.stepsHeadingTxt{
+    font-size:16px;
+    line-height: 160%;
+}
+
+.stepsTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 160%;
+    text-align: left;
+}
+
+.stepnum{
+    width: 33px;
+    height: 30px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepnumTxt{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
+    background: black;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 160%;
+}
+
+.learnmoreTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+}
+
+.supplyplaceholderBackground{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    border-radius: 50%;
+    width: 410px;
+    height: 410px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supplyplaceholderWrapper{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 160%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    padding: 10% 0;
+}
+
+.supplyplaceholderWrapper img{
+    width: 250px;
+}
