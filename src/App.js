@@ -8,10 +8,10 @@ import Token from './components/Token';
 function App() {
   return (
     <div className="App">
-      <Sidebar/>
-      {/* <Home/> */}
+      {/* <Sidebar/> */}
+      <Home/>
       {/* <Token/> */}
-      <Farming/>
+      {/* <Farming/> */}
       {/* <MysteryBox/> */}
     </div>
   );
