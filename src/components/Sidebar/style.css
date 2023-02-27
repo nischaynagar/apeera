@@ -12,7 +12,7 @@
 }
 
 .sidebarList{
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@
 .listItem{
     border-radius: 10px;
     display: flex;
-    width: 80%;
+    max-width: 70%;
     padding: 5px 10px;
     gap: 10px;
     align-items: center;
@@ -50,4 +50,97 @@
     line-height: 160%;
     background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
     border-radius: 10px;
+    margin-left: auto;
+    padding: 5px 10px;
+}
+
+.listItemWrapper{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.informationBox{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #FFFFFF;
+    padding: 10px 15px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4479px;
+    line-height: 160%;
+}
+
+.contractAddress{
+    color: #FF8093;
+}
+
+.contactAddressDiv{
+    display: flex;
+    gap: 10px;
+}
+
+.socialIconsWrapper{
+    display: flex;
+    gap: 5px;
+}
+
+.socialIcon1{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #97E0FF;
+}
+
+.socialIcon2{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #FF7474;
+}
+
+.socialIcon3{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #38B7FF;
+}
+
+.socialIcon4{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: #F25BFF;
+}
+
+.informationBox img{
+    cursor: pointer;
+}
+
+.informationBtn{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.linksBtn{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.contractaddressHeading{
+    margin-top: 10px;
+}
+
+.socialsHeading{
+    margin-top: 10px;
+}
+
+.closeBtn{
+    margin-left: auto;
+    margin-top: 10px;
+    cursor: pointer;
 }

@@ -7,6 +7,9 @@ import lotteryIcon from "../assests/images/icon-lottery.svg";
 import nftstakingIcon from "../assests/images/icon-nftstaking.svg";
 import heartIcon from "../assests/images/icon-heart.svg";
 import marketplaceIcon from "../assests/images/icon-marketplace.svg";
+import copyIcon from "../assests/images/icon-copy.svg";
+import arrowIcon from "../assests/images/icon-arrow.svg";
+import closeIcon from "../assests/images/icon-close.svg";
 import "./style.css";
 
 
@@ -28,27 +31,49 @@ export default function Sidebar()
                     <img src={nftstakingIcon} alt="nft-staking-icon"/>
                     <div>NFT Staking</div>
                 </div>
+                <div className='listItemWrapper'>
                 <div className='listItem'>
                     <img src={laboratoryIcon} alt="laboratory-icon"/>
                     <div>Laboratory</div>
+                </div>
                     <div className='soonDiv'>SOON</div>
                 </div>
-                <div>
-
+                <div className='listItemWrapper'>
                 <div className='listItem'>
                     <img src={marketplaceIcon} alt="marketplace-icon"/>
                     <div>Marketplace</div>
                 </div>
                     <div className='soonDiv'>SOON</div>
                 </div>
+                <div className='listItemWrapper'>
                 <div className='listItem'>
                     <img src={lotteryIcon} alt="lottery-icon"/>
                     <div>Lottery</div>
+                </div>
                     <div className='soonDiv'>SOON</div>
                 </div>
                 <div className='listItem thetoken'>
                     <img src={heartIcon} alt="heart-icon"/>
                     <div>The Token</div>
+                </div>
+                <div className='informationBox'>
+                    <div className='informationBtn'>Information <img src={arrowIcon} alt="arrow"/></div>
+                    <div className='linksBtn'>Links <img src={arrowIcon} alt="arrow"/></div>
+                    <div className='contractaddressHeading'>Contract address:</div>
+                    <div className='contactAddressDiv'> 
+                    <div className='contractAddress'>0xtest00test00</div>
+                    <img src={copyIcon} alt="copy-icon"/>
+                    </div>
+                    <div className='socialsHeading'>Socials</div>
+                    <div className='socialIconsWrapper'>
+                        <div className='socialIcon1'></div>
+                        <div className='socialIcon2'></div>
+                        <div className='socialIcon3'></div>
+                        <div className='socialIcon4'></div>
+                    </div>
+                </div>
+                <div className='closeBtn'>
+                    <img src={closeIcon} alt="closeicon"/>
                 </div>
             </div>
         </div>

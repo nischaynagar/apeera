@@ -11,7 +11,7 @@ function App() {
       <Sidebar/>
       {/* <Home/> */}
       {/* <Token/> */}
-      {/* <Farming/> */}
+      <Farming/>
       {/* <MysteryBox/> */}
     </div>
   );
