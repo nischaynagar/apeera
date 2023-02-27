@@ -2,6 +2,8 @@ import React from 'react';
 import connectWalletIcon from "../assests/images/icon-connectwallet.svg";
 import mainLogo from "../assests/images/icon-mainLogo.svg";
 import mysteryboxImg from "../assests/images/icon-mysterybox.svg";
+import fiorImg from "../assests/images/icon-fior.svg";
+import xisImg from "../assests/images/icon-xis.svg";
 import "./style.css";
 
 export default function MysteryBox()
@@ -109,9 +111,50 @@ export default function MysteryBox()
                     </div>
                 </div>
             </div>
-            <div>
-                <div className='obtainableapesHeading'>OBTAINABLE APES</div>
+            <div className='obtainableapesHeading'>OBTAINABLE APES</div>
+            <div className='apesGrid'>
+                <div className='apesItem1'>
+                    <div className='apesItemUpperDiv1'>
+                        <div>FIOR</div>
+                        <img src={fiorImg} alt="fior-img" />
+                    </div>
+                <div className='apesItemLowerDiv1'>
+                <div>FIOR IS A LEGENDARY MONKEY.<br/>HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. FIOR INCREASES YOUR STAKING POWER BY <span>7x</span>.</div>
+                    <div className='legendaryBtn'>LEGENDARY</div>
+                </div>
+                </div>
+                <div className='apesItem2'>
+                    <div className='apesItemUpperDiv2'>
+                        <div>XIS</div>
+                        <img src={xisImg} alt="xis-img" />
+                    </div>
+                <div className='apesItemLowerDiv2'>
+                <div>FIOR IS A LEGENDARY MONKEY.<br/>HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. FIOR INCREASES YOUR STAKING POWER BY <span>7x</span>.</div>
+                    <div className='epicBtn'>EPIC</div>
+                </div>
+                </div>
+                <div className='apesItem1'>
+                    <div className='apesItemUpperDiv1'>
+                        <div>FIOR</div>
+                        <img src={fiorImg} alt="fior-img" />
+                    </div>
+                <div className='apesItemLowerDiv1'>
+                <div>FIOR IS A LEGENDARY MONKEY.<br/>HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. FIOR INCREASES YOUR STAKING POWER BY <span>7x</span>.</div>
+                    <div className='legendaryBtn'>LEGENDARY</div>
+                </div>
+                </div>
+                <div className='apesItem2'>
+                    <div className='apesItemUpperDiv2'>
+                        <div>XIS</div>
+                        <img src={xisImg} alt="xis-img" />
+                    </div>
+                <div className='apesItemLowerDiv2'>
+                <div>FIOR IS A LEGENDARY MONKEY.<br/>HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. FIOR INCREASES YOUR STAKING POWER BY <span>7x</span>.</div>
+                    <div className='epicBtn'>EPIC</div>
+                </div>
+                </div>
             </div>
+            <div className='showmoreBtn'>SHOW MORE</div>
         </div>
     );
 }

@@ -1,0 +1,53 @@
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 320px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background: #2C2C2C;
+    justify-content: start;
+    padding: 20px 0px 20px 40px
+}
+
+.sidebarList{
+    width: 80%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.listItem{
+    border-radius: 10px;
+    display: flex;
+    width: 80%;
+    padding: 5px 10px;
+    gap: 10px;
+    align-items: center;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.4479px;
+    line-height: 160%;
+    cursor: pointer;
+}
+
+.active{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+}
+
+.thetoken{
+    margin-top: 2em;
+}
+
+.soonDiv{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.4479px;
+    line-height: 160%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    border-radius: 10px;
+}

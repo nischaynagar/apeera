@@ -1,8 +1,9 @@
 .MysteryBox{
     display: flex;
     flex-direction: column;
-    padding: 2em 5%;
+    padding: 2em 2em;
     align-items: center;
+    max-width: 1200px;
 }
 
 .connectWalletBtn{
@@ -269,4 +270,151 @@
     line-height: 160%;
 
     text-align: center;
+}
+
+
+.apesItem1{
+    width: 335px;
+    border: 1px solid #FFC700;
+}
+
+.apesItemUpperDiv1{
+    display: flex;
+    background: linear-gradient(260.89deg, #FFC700 9.53%, #E35200 88.93%);
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    font-family: 'Blaze';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 160%;
+    padding: 0 10px;
+}
+
+.apesItemUpperDiv1 img{
+    width: 160px;
+    align-self: end;
+}
+
+.legendaryBtn{
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    background: linear-gradient(260.89deg, #FFC700 9.53%, #FF5C00 88.93%);
+    width: 150px;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #181818;
+    padding: 10px 20px;
+}
+
+.apesItemLowerDiv1{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    border: 1px solid #FFC700;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apesItemLowerDiv1 span{
+    color: #FFC701;
+}
+
+
+.apesItem2{
+    width: 335px;
+    border: 1px solid rgba(100, 0, 227, 0.55);
+}
+
+.apesItemUpperDiv2{
+    display: flex;
+    background: linear-gradient(260.89deg, #B600E3 9.53%, rgba(100, 0, 227, 0.55) 88.93%);
+    border-radius: 2px;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    font-family: 'Blaze';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 160%;
+    padding: 0 10px;    
+}
+
+.apesItemUpperDiv2 img{
+    width: 160px;
+    align-self: end;
+}
+
+.epicBtn{
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    background: linear-gradient(260.89deg, #B600E3 9.53%, rgba(100, 0, 227, 0.55) 88.93%);
+    width: 150px;
+    text-align: center;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    padding: 10px 20px;
+}
+
+.apesItemLowerDiv2{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    border: 1px solid rgba(100, 0, 227, 0.55);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.apesItemLowerDiv2 span{
+    background: linear-gradient(260.89deg, #B600E3 9.53%, rgba(100, 0, 227, 0.55) 88.93%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.apesGrid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 75px;
+    margin-top: 5em;
+}
+
+.showmoreBtn{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    width: 200px;
+    padding: 8px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    margin-top: 2em;
+    cursor: pointer;
 }
