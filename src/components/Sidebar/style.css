@@ -13,10 +13,6 @@
     z-index: 100;
 }
 
-.Sidebar[data-overlay]::before{
-    background-image: linear-gradient(rgb(0 0 0 / 0.3), rgb(0 0 0 / 0.8));
-}
-
 .hide{
     display: none;
 }
