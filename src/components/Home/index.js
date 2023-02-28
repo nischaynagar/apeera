@@ -145,19 +145,92 @@ export default function Home()
                 </div>
             </div>
             <div className='heading1'>ROADMAP</div>
+            <div className='roadmapRow1'>
+
+            <div className='roadmapItemWrapper1'>
+            <div className='roadmapItem1'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>HELLO WORLD!<br/>APE ERA WAS BORN</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper1'>
+            <div className='roadmapItem1'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>PRELISTING ON CMC & CG PRELAUNCH CERTIK AUDIT PRESALE ON PINKSALE</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>SOON</div>
+                <div className='roadmapItemTxt'>FINISH PRESALE <br/>REACH 1000+ HOLDERS SELL OUT COLLECTION</div>
+            </div>
+            </div>
+            </div>
+            <div className='connectingDiv2'></div>
+            <div className='roadmapRow1'>
+
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>MORE PARTNERSHIPS LAUNCH MARKET PLACES TAKING SERVICE PROVIDER</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>HUGE PRESS MARKETING INITIAL LISTING ON CEX</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>SOON</div>
+                <div className='roadmapItemTxt'>PARTNERSHIPS INTRODUCE SEASON SYSTEM</div>
+            </div>
+            </div>
+            </div>
+            <div className='connectingDiv3'></div>
+            <div className='roadmapRow1'>
+
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>LABORATORY INTRODUCTION, CREATE YOUR ULTIMATE APE</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>2023</div>
+                <div className='roadmapItemTxt'>LOTTERY SYSTEM INTRODUCTION, WIN GIANT PRIZES</div>
+            </div>
+            </div>
+            <div className='connectingDiv1'></div>
+            <div className='roadmapItemWrapper2'>
+            <div className='roadmapItem2'>
+                <div className='roadmapItemHeading'>SOON</div>
+                <div className='roadmapItemTxt'>TOP SECRET NO DISTRIBUTION ALLOWED</div>
+            </div>
+            </div>
+            </div>
             <div className='heading1'>FIND US ON</div>
             <div className='findUsWrapper'>
                 <img src={pancakeswapIcon} alt="pancakeswapIcon"/>
-                <img src={bscscanIcon} alt="pancakeswapIcon"/>
-                <img src={dexviewIcon} alt="pancakeswapIcon"/>
+                <img src={dexviewIcon} alt="dexviewIcon"/>
+                <img src={bscscanIcon} alt="bscscanIcon"/>
             </div>
             <div className='findUsWrapper'>
                 <img src={pancakeswapIcon} alt="pancakeswapIcon"/>
-                <img src={bscscanIcon} alt="pancakeswapIcon"/>
-                <img src={dexviewIcon} alt="pancakeswapIcon"/>
+                <img src={dexviewIcon} alt="dexviewIcon"/>
+                <img src={bscscanIcon} alt="bscscanIcon"/>
             </div>
+            <div className='placeholderpictureWrapper'>
             <div className='heading2'>**PLACEHOLDER PICTURES**</div>
             <div className='heading2'>WE WILL GIVE YOU MORE INFOS ON WHAT TO PUT HERE SOON.</div>
+            </div>
             <div className='heading1'>DISCLAIMER</div>
             <div className="disclaimerDropdown">
             <div className="dropbtn" onClick={toggleLegalDiscDropdown}>

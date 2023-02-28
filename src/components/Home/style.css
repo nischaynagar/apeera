@@ -56,12 +56,14 @@
     text-transform: capitalize;
     padding: 10px 15px;
     width: 180px !important;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
 }
 
 .btnWrapper{
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-top: 0.5em;
 }
 
 .aboutApeEraTxt{
@@ -109,6 +111,7 @@
     align-self: center;
     justify-content: center;
     gap: 50px;
+    margin: 2em 0;
 }
 
 .homefeatureItemWrapper1{
@@ -172,6 +175,7 @@
     line-height: 120%;
 
     text-align: center;
+    margin: 1em 0;
 }
 
 .featureGridWrapper{
@@ -255,3 +259,84 @@
     transition-delay: 0.1s;
   }
   
+
+  .roadmapItem1{
+    text-align: left;
+    background: black;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  }
+
+  .roadmapItem2{
+    text-align: left;
+    background: black;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  }
+
+  .roadmapItemWrapper1{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    padding: 5px;
+    height: 150px;
+    width: 270px;
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  }
+ 
+  .roadmapItemWrapper2{
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+    padding: 5px;
+    height: 150px;
+    width: 270px;
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  }
+
+  .roadmapItemHeading{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 160%;
+  }
+
+  .roadmapItemTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+  }
+
+  .connectingDiv1{
+    border: 5px solid #FFFFFF;
+    width: 100px;
+  }
+
+  .roadmapRow1{
+    display: flex;
+    align-items: center;
+  }
+
+  .connectingDiv2{
+    border: 5px solid #FFFFFF;
+    height: 80px;
+    margin-right: 200px;
+    margin-left: auto;
+  }
+
+  .connectingDiv3{
+    border: 5px solid #FFFFFF;
+    height: 80px;
+    margin-left: 180px;
+    margin-right: auto;
+  }
+
+  .placeholderpictureWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1em 0;
+  }
