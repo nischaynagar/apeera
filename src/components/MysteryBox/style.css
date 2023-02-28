@@ -37,6 +37,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 3em;
 }
 
 .mainLogoWrapper img{
@@ -47,7 +48,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
 
 .buyMysteryBoxBtn{
@@ -101,6 +102,7 @@
     text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
     text-align: start;
     align-self: flex-end;
+    margin-top: 10px;
 }
 
 .highlightedPriceTxt{
@@ -125,6 +127,14 @@
     font-size: 18px;
     line-height: 160%;
     text-align: center;
+    margin-top: 10px;
+}
+
+.raritiesWrapper{
+     display: flex;
+     flex-direction: column;
+     width: 90%;
+     margin: 2em 0;
 }
 
 .raritiesTxt{
@@ -133,6 +143,7 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 160%;
+    text-align: left;
 }
 
 .raritiesTxt span{
@@ -180,10 +191,10 @@
 
 .raritiesIconWrapper{
     display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
+    width: 100%;
     align-items: center;
+    justify-content: space-between;
+    margin: 1em 0;
 }
 
 .raritiesIconTxt1{
@@ -199,7 +210,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 120%;
     text-align: start;
 }
 
@@ -218,20 +229,21 @@
     display: flex;
     flex-wrap: wrap;
     align-self: center;
-    justify-content: flex-start;
-    gap: 20px;
+    justify-content: center !important;
+    gap: 30px;
+    max-width: 1100px;
 }
 
 .featureItemWrapper1{
     background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
-    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
     width: 492.33px;
     height: 270.67px;
     padding: 5px;
 }
 
 .featureItemWrapper2{
-    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
     height: 100%;
 }
 
@@ -241,7 +253,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: black;
-    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
     height: 100%;
     padding: 10px 30px;
     text-align: left;
@@ -269,7 +281,7 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 160%;
-
+    margin: 1em 0;  
     text-align: center;
 }
 
@@ -355,8 +367,17 @@
 }
 
 .apesItemUpperDiv2 img{
-    width: 160px;
+    width: 300px;
     align-self: end;
+    transform: translateX(-55px);
+}
+
+.apesItemUpperDiv2Txt{
+    z-index: 10;
+}
+
+.apesItemUpperDiv1Txt{
+    z-index: 10;
 }
 
 .epicBtn{
@@ -402,7 +423,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 75px;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .showmoreBtn{
@@ -418,4 +439,16 @@
     clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
     margin-top: 2em;
     cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1100px)
+{
+    .featureGrid{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* .raritiesIconWrapper{
+        flex-direction: column;
+    } */
 }

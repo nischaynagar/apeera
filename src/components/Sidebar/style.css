@@ -2,13 +2,23 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 320px;
-    height: 100vh;
+    width: 340px;
+    height: max(100vh, 100%);
     left: 0px;
     top: 0px;
     background: #2C2C2C;
     justify-content: start;
-    padding: 20px 0px 20px 40px
+    padding: 20px 0px 20px 40px;
+    overflow-y : auto;
+    z-index: 100;
+}
+
+.Sidebar[data-overlay]::before{
+    background-image: linear-gradient(rgb(0 0 0 / 0.3), rgb(0 0 0 / 0.8));
+}
+
+.hide{
+    display: none;
 }
 
 .sidebarList{

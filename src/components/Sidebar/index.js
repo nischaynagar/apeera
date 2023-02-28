@@ -15,8 +15,10 @@ import "./style.css";
 
 export default function Sidebar()
 {
+
+    const [sidebarOpen, setSidebarOpen] = useState(true);
     return (
-        <div className='Sidebar'>
+        <div className={!sidebarOpen?  "hide" : "Sidebar"}>
             <img src={mainLogo} alt="main-logo"/>
             <div className='sidebarList'>
                 <div className='listItem active'>
@@ -25,11 +27,11 @@ export default function Sidebar()
                 </div>
                 <div className='listItem'>
                     <img src={mysteryIcon} alt="mystery-box-icon"/>
-                    <div>Mystery Box</div>
+                    <div>Mystery&nbsp;Box</div>
                 </div>
                 <div className='listItem'>
                     <img src={nftstakingIcon} alt="nft-staking-icon"/>
-                    <div>NFT Staking</div>
+                    <div>NFT&nbsp;Staking</div>
                 </div>
                 <div className='listItemWrapper'>
                 <div className='listItem'>
@@ -72,7 +74,7 @@ export default function Sidebar()
                         <div className='socialIcon4'></div>
                     </div>
                 </div>
-                <div className='closeBtn'>
+                <div onClick={()=>setSidebarOpen(false)} className='closeBtn'>
                     <img src={closeIcon} alt="closeicon"/>
                 </div>
             </div>

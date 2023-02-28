@@ -9,8 +9,10 @@ import "./style.css";
 export default function Home()
 {
 
-    const [isOpen, setIsOpen] = useState(false);
-    const toggleDropdown = () => setIsOpen(!isOpen);
+    const [isLegalDiscOpen, setIsLegalDiscOpen] = useState(false);
+    const [isRiskDiscOpen, setIsRiskDiscOpen] = useState(false);
+    const toggleLegalDiscDropdown = () => setIsLegalDiscOpen(!isLegalDiscOpen);
+    const toggleRiskDiscDropdown = () => setIsRiskDiscOpen(!isRiskDiscOpen);
 
     return (
         <div className='home'>
@@ -158,11 +160,19 @@ export default function Home()
             <div className='heading2'>WE WILL GIVE YOU MORE INFOS ON WHAT TO PUT HERE SOON.</div>
             <div className='heading1'>DISCLAIMER</div>
             <div className="disclaimerDropdown">
-            <div className="dropbtn" onClick={toggleDropdown}>
+            <div className="dropbtn" onClick={toggleLegalDiscDropdown}>
              LEGAL DISCLAIMER
             </div>
-            <div className={`disclaimerDropdown-content ${isOpen ? 'open' : ''}`}>
-            The information provided on the apeEra website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website’s content as such. ApeEra does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions. By purchasing APERA$, you agree that you are not purchasing a security or investment and you agree to hold ApeEra harmless and not liable for any losses or taxes you may incur. You also agree that ApeEra is presenting the token “as is” and is not required to provide any support or services. You should have no expectation of any form from ApeEra. Although APERA$ is a community driven token for social networking and not a registered digital currency, the team strongly recommends that citizens in areas with government bans on cryptocurrency do not purchase it because ApeEra cannot ensure compliance with your territory’s regulations. Always make sure that you are in compliance with your local laws and regulations before you make any purchase.
+            <div className={`disclaimerDropdown-content ${isLegalDiscOpen ? 'open' : ''}`}>
+                The information provided on the apeEra website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website’s content as such. ApeEra does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions. By purchasing APERA$, you agree that you are not purchasing a security or investment and you agree to hold ApeEra harmless and not liable for any losses or taxes you may incur. You also agree that ApeEra is presenting the token “as is” and is not required to provide any support or services. You should have no expectation of any form from ApeEra. Although APERA$ is a community driven token for social networking and not a registered digital currency, the team strongly recommends that citizens in areas with government bans on cryptocurrency do not purchase it because ApeEra cannot ensure compliance with your territory’s regulations. Always make sure that you are in compliance with your local laws and regulations before you make any purchase.
+            </div>
+            </div>
+            <div className="disclaimerDropdown">
+            <div className="dropbtn" onClick={toggleRiskDiscDropdown}>
+                RISK DISCLOSURE
+            </div>
+            <div className={`disclaimerDropdown-content ${isRiskDiscOpen ? 'open' : ''}`}>
+                The information provided on the apeEra website does not constitute investment advice, financial advice, trading advice, or any other sort of advice and you should not treat any of the website’s content as such. ApeEra does not recommend that any cryptocurrency should be bought, sold, or held by you. Do conduct your own due diligence and consult your financial advisor before making any investment decisions. By purchasing APERA$, you agree that you are not purchasing a security or investment and you agree to hold ApeEra harmless and not liable for any losses or taxes you may incur. You also agree that ApeEra is presenting the token “as is” and is not required to provide any support or services. You should have no expectation of any form from ApeEra. Although APERA$ is a community driven token for social networking and not a registered digital currency, the team strongly recommends that citizens in areas with government bans on cryptocurrency do not purchase it because ApeEra cannot ensure compliance with your territory’s regulations. Always make sure that you are in compliance with your local laws and regulations before you make any purchase.
             </div>
             </div>
         </div>

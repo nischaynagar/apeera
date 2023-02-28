@@ -21,8 +21,8 @@ export default function Farming()
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>NFT STAKING</div>
+                <div className='insertTxt'>INSERT YOUR APE ERA NFTs AND GAIN STAKING POWER</div>
             </div>
-            <div className='insertTxt'>INSERT YOUR APE ERA NFTs AND GAIN STAKING POWER</div>
             <div className='slotsWrapper'>
                 <div className='slot'>
                     <div className='slotheading'>TIER 1 SLOT</div>
@@ -59,7 +59,7 @@ export default function Farming()
                     <div className='styledWrapper3'>
                         <div className='txt1'>FARMING POWER</div>
                         <div className='txt2'>TOTAL STAKING POWER: <span className='goldenGradientTxt'>700%</span></div>
-                        <div className='txt1'>ESTIMATED EARNINGS</div>
+                        <div className='estimatedearningTxt'>ESTIMATED EARNINGS</div>
                         <div className='txt2'>ESTIMATED $APERA / 24 HOURS : <span className='goldenGradientTxt'>12345678910</span></div>
                         <div className='emergencyBtnWrapper1'>
                             <div className='emergencyBtnWrapper2'>
@@ -72,8 +72,8 @@ export default function Farming()
                 </div>
             </div>
             <div className='approveBtnWrapper'>
-                <div className='styledBtn1'>APPROVE $APERA</div>
-                <div className='styledBtn1'>SEND TO FARM</div>
+                <div className='approveBtn'>APPROVE&nbsp;$APERA</div>
+                <div className='approveBtn'>SEND&nbsp;TO&nbsp;FARM</div>
             </div>
 
             <div className='farmingInfoDiv'>

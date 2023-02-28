@@ -1,7 +1,7 @@
 .Farming{
     display: flex;
     flex-direction: column;
-    padding: 2em 5%;
+    padding: 2em 2em;
     align-items: center;
 }
 
@@ -36,6 +36,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 3em;
 }
 
 .mainLogoWrapper img{
@@ -48,6 +49,7 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 160%;
+    margin-top: 1em;
 }
 
 .slotheading{
@@ -97,6 +99,8 @@
     color: #FFFFFF;
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-top: 1em;
 }
 
 .setnftWrapper{
@@ -109,6 +113,7 @@
     font-size: 20px;
     line-height: 26px;
     text-transform: capitalize;
+    margin: 1.25em 0;
 }
 
 
@@ -191,9 +196,12 @@
   }
   
   .styledWrapper3{
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    padding: 70px 30px;
+    padding: 70px 30px 10px 30px;
+    align-items: center;
   }
 
 
@@ -212,6 +220,7 @@
   }
 
   .txt1{
+    font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -228,14 +237,30 @@
     text-transform: capitalize;
   }
 
+  .estimatedearningTxt{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 63px;
+    text-transform: capitalize;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+  }
+
   .emergencyBtnWrapper1{
     background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
     cursor: pointer;
+    border-radius: 10px;
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
   }
 
   .emergencyBtnWrapper2{
     background-color: black;
     margin: 5px;
+    padding: 5px 30px;
+    border-radius: 10px;
   }
 
   .txt3{
@@ -260,7 +285,7 @@
     text-align: center;
   }
 
-  .styledBtn1{
+  .approveBtn{
     background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
     font-family: 'JetBrains Mono';
     font-style: normal;
@@ -274,6 +299,7 @@
     justify-content: center;
     clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
     cursor: pointer;
+    padding: 10px 20px;
   }
 
   .approveBtnWrapper{
@@ -281,7 +307,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 3em;
+    margin: 3em 0;
     gap: 50px;
   }
 

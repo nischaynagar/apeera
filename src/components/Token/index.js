@@ -15,17 +15,18 @@ export default function Token()
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>LEARN ABOUT APE ERA</div>
             </div>
-            <div className='membercntWrapper'>
+            <div className='membercntWrapper1'>
+            <div className='membercntWrapper2'>
                 <div className='cntBox'>
                 <div>
-                    <div>
+                    <div className='membercntTxtWrapper'>
                         <div className='membercntTxt'>5K+</div>
                         <div className='memberdescTxt'>TELEGRAM MEMBER</div>
                     </div>
                     <div className='styledBtn1'>BUY&nbsp;$APERA</div>
                 </div>  
                 <div>
-                    <div>
+                    <div className='membercntTxtWrapper'>
                         <div className='membercntTxt'>10K+</div>
                         <div className='memberdescTxt'>EXPECTED HOLDERS</div>
                     </div>
@@ -42,30 +43,43 @@ export default function Token()
                     </div>
                 </div>
             </div>
-            <div className='tokenomicsGrid'>
-                <div className='tokenomicsHeading'>TOKENOMICS</div>
-                <div className='tokenomicsGridRow'>
-                    <div className='tokenomicsCard'>
-                        <div className='tokenomicsCardHeading'>1% REFLECTION</div>
-                        <div>YOU WILL RECEIVE INSTANT 1% SHARE WITH EVERY TRADE MADE. YOU OBTAIN $APTERA BY SIMPLY HOLDING IT.</div>
-                    </div>
-                    <div className='tokenomicsCard'>
-                        <div className='tokenomicsCardHeading'>1% ARTIST</div>
-                        <div>OUR AI ARTIST GETS 1% TO CONTINUE TO DO GREAT WORK AND GUIDE US THROUGH OUR UPDATES AND SEASONS!</div>
+            </div>
+            <div className='tokenomicsHeading'>TOKENOMICS</div>
+            <div className='featureGrid'>
+                <div className='featureItemWrapper1'>
+                    <div className='featureItemWrapper2'>
+                        <div className='featureItem'>
+                            <div className='featureHeadingTxt'>COLLECTIBLE</div>
+                            <div className='featureDescTxt'>ENJOY THE APE ERA STORYLINE, COLLECT AND EARN WITH YOUR FAVOURITE APES.</div>
+                        </div>
                     </div>
                 </div>
-                <div className='tokenomicsGridRow'>
-                    <div className='tokenomicsCard'>
-                        <div className='tokenomicsCardHeading'>1% DEVELOPMENT</div>
-                        <div>1% OF EACH TRADE GOES TO THE TEAM FOR THE EXCESSIVE DEVELOPMENT OF THE PROJECT.</div>
+                <div className='featureItemWrapper1'>
+                    <div className='featureItemWrapper2'>
+                        <div className='featureItem'>
+                            <div className='featureHeadingTxt'>LIMITED</div>
+                            <div className='featureDescTxt'>APE ERA NFTs IS ONLY AVAILABLE FOR A LIMITED TIME AND CAN NOT BE MINTED ONCE THE SEASON IS OVER</div>
+                        </div>
                     </div>
-                    <div className='tokenomicsCard'>
-                        <div className='tokenomicsCardHeading'>2% MARKETING</div>
-                        <div>WE WANT TO MAKE SURE $APERA GETS THE ATTENTION IT NEEDS TO CREATE A OUTSTANDING COMMUNITY!</div>
+                </div>
+                <div className='featureItemWrapper1'>
+                    <div className='featureItemWrapper2'>
+                        <div className='featureItem'>
+                            <div className='featureHeadingTxt'>UTILITIES</div>
+                            <div className='featureDescTxt'>$APERA NFTs WILL BE UTILIZED AS MATERIALS ACROSS THE ECOSYSTEM.</div>
+                        </div>
+                    </div>
+                </div>
+                <div className='featureItemWrapper1'>
+                    <div className='featureItemWrapper2'>
+                        <div className='featureItem'>
+                            <div className='featureHeadingTxt'>SOON</div>
+                            <div className='featureDescTxt'>MARKETPLACE, LOTTERY, LABORATORY AND MORE TO COME.</div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='supplyDivWrapper'>
                 <div className='supplyTxt'>SUPPLY</div>
                 <div className='supplyDescTxt'>
                     <div>TOTAL SUPPLY : 1.000.000.000.000.000</div>
@@ -82,6 +96,7 @@ export default function Token()
                 <img src={mainLogo} alt="main-logo"/>
             </div>
             </div>
+            <div className='howtoBuyWrapper'>
             <div className='howtoBuyTxt'>HOW TO BUY?</div>
             <div className='howtoBuystepWrapper'>
                 <div className='buyStep'>
@@ -119,6 +134,7 @@ export default function Token()
                         <div className='stepsHeadingTxt'>USE YOUR FAVOURITE SWAP</div>
                         <div>AFTER YOU’RE ALL SET, HEAD TO YOUR FAVOURITE SWAP, FOR EXAMPLE PANCAKESWAP.FINANCE OR POOCOIN.APP<br/>CONNECT YOUR WALLET AND GET SOME $APERA. REMEMBER TO SET YOUR SLIPPAGE TO 5 or 6%!</div>
                     </div>
+                </div>
                 </div>
             </div>
             <div className='styledBtn1'>BUY&nbsp;$APERA</div>

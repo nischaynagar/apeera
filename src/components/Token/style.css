@@ -36,6 +36,7 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 3em;
 }
 
 .mainLogoWrapper img{
@@ -63,19 +64,35 @@
     gap: 20%;
 }
 
+.membercntTxtWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+}
+
 .membercntTxt{
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 800;
     font-size: 80px;
-    line-height: 160%;
+    line-height: 70px;
 }
-.membercntWrapper{
+
+.membercntWrapper1{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    padding: 5px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.membercntWrapper2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
-    border: 8px solid #D30221;
+    background: black;
+    padding: 40px;
+    gap: 50px;
 }
 
 .cntBox{
@@ -88,7 +105,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 160%;
+    line-height: 120%;
 }
 
 
@@ -139,7 +156,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 10px;
 }
 
 .communityIcon{
@@ -149,10 +166,6 @@
     background: #97E0FF;
 }
 
-.tokenomicsGrid{
-    display: flex;
-    flex-direction: column;
-}
 
 .tokenomicsHeading{
     font-family: 'JetBrains Mono';
@@ -160,34 +173,62 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 160%;
+    margin: 1em 0;
 }
 
-.tokenomicsCard{
+.featureGrid{
     display: flex;
-    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
-    border: 8px solid #D30221;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center !important;
+    gap: 30px;
+    max-width: 1100px;
+}
+
+.featureItemWrapper1{
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+    width: 492.33px;
+    height: 270.67px;
+    padding: 5px;
+}
+
+.featureItemWrapper2{
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+    height: 100%;
+}
+
+.featureItem{
+    display: flex;
+    align-items: start;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+    height: 100%;
+    padding: 10px 30px;
     text-align: left;
-    padding: 30px;
+}
+
+.featureHeadingTxt{
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 32px;
     line-height: 160%;
 }
 
-.tokenomicsGridRow{
-    display: flex;
-    justify-content: space-between;
-}
-
-.tokenomicsCardHeading{
+.featureDescTxt{
     font-family: 'JetBrains Mono';
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 160%;
+}
+
+.supplyDivWrapper{
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
 .supplyTxt{
@@ -204,6 +245,11 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
+}
+
+.howtoBuyWrapper{
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 .howtoBuyTxt{
@@ -241,8 +287,8 @@
 }
 
 .stepnum{
-    width: 33px;
-    height: 30px;
+    width: 43px;
+    height: 40px;
     border-radius: 50%;
     background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
     display: flex;
@@ -271,6 +317,8 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 160%;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
 }
 
 .supplyplaceholderBackground{

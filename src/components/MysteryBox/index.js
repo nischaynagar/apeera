@@ -39,6 +39,7 @@ export default function MysteryBox()
                 </div>         
             </div>
             <div className='mysteryInfoTxt'>1 MYSTERY BOX CONTAINS 1 RANDOM APE ERA NFT WITH RANDOM RARITY</div>
+            <div className='raritiesWrapper'>
             <div className='raritiesTxt'>RARITIES & DROP RATES <span>SLIGHTLY INCREASED WHEN BUYING WITH $APERA!</span></div>
             <div className='raritiesIconWrapper'>
                 <div className='raritiesIcon'>
@@ -65,17 +66,18 @@ export default function MysteryBox()
                 <div className='raritiesIcon'>
                     <div className='raritiesIcon4'></div>
                     <div className='raritiesIconTxtWrapper'>
-                        <div className='raritiesIconTxt1'>COMMON</div>
+                        <div className='raritiesIconTxt1'>LEGENDARY</div>
                         <div className='raritiesIconTxt2'>1%</div>
                     </div>
                 </div>
                 <div className='raritiesIcon'>
                     <div className='raritiesIcon5'></div>
                     <div className='raritiesIconTxtWrapper'>
-                        <div className='raritiesIconTxt1'>COMMON</div>
+                        <div className='raritiesIconTxt1'>ULTIMATE</div>
                         <div className='raritiesIconTxt2'>0.01%</div>
                     </div>
                 </div>
+            </div>
             </div>
             <div className='featureGrid'>
                 <div className='featureItemWrapper1'>
@@ -89,24 +91,24 @@ export default function MysteryBox()
                 <div className='featureItemWrapper1'>
                     <div className='featureItemWrapper2'>
                         <div className='featureItem'>
-                            <div className='featureHeadingTxt'>COLLECTIBLE</div>
-                            <div className='featureDescTxt'>ENJOY THE APE ERA STORYLINE, COLLECT AND EARN WITH YOUR FAVOURITE APES.</div>
+                            <div className='featureHeadingTxt'>LIMITED</div>
+                            <div className='featureDescTxt'>APE ERA NFTs IS ONLY AVAILABLE FOR A LIMITED TIME AND CAN NOT BE MINTED ONCE THE SEASON IS OVER</div>
                         </div>
                     </div>
                 </div>
                 <div className='featureItemWrapper1'>
                     <div className='featureItemWrapper2'>
                         <div className='featureItem'>
-                            <div className='featureHeadingTxt'>COLLECTIBLE</div>
-                            <div className='featureDescTxt'>ENJOY THE APE ERA STORYLINE, COLLECT AND EARN WITH YOUR FAVOURITE APES.</div>
+                            <div className='featureHeadingTxt'>UTILITIES</div>
+                            <div className='featureDescTxt'>$APERA NFTs WILL BE UTILIZED AS MATERIALS ACROSS THE ECOSYSTEM.</div>
                         </div>
                     </div>
                 </div>
                 <div className='featureItemWrapper1'>
                     <div className='featureItemWrapper2'>
                         <div className='featureItem'>
-                            <div className='featureHeadingTxt'>COLLECTIBLE</div>
-                            <div className='featureDescTxt'>ENJOY THE APE ERA STORYLINE, COLLECT AND EARN WITH YOUR FAVOURITE APES.</div>
+                            <div className='featureHeadingTxt'>SOON</div>
+                            <div className='featureDescTxt'>MARKETPLACE, LOTTERY, LABORATORY AND MORE TO COME.</div>
                         </div>
                     </div>
                 </div>
@@ -115,7 +117,7 @@ export default function MysteryBox()
             <div className='apesGrid'>
                 <div className='apesItem1'>
                     <div className='apesItemUpperDiv1'>
-                        <div>FIOR</div>
+                        <div  className='apesItemUpperDiv1Txt'>FIOR</div>
                         <img src={fiorImg} alt="fior-img" />
                     </div>
                 <div className='apesItemLowerDiv1'>
@@ -125,7 +127,7 @@ export default function MysteryBox()
                 </div>
                 <div className='apesItem2'>
                     <div className='apesItemUpperDiv2'>
-                        <div>XIS</div>
+                        <div className='apesItemUpperDiv2Txt'>XIS</div>
                         <img src={xisImg} alt="xis-img" />
                     </div>
                 <div className='apesItemLowerDiv2'>
@@ -135,7 +137,7 @@ export default function MysteryBox()
                 </div>
                 <div className='apesItem1'>
                     <div className='apesItemUpperDiv1'>
-                        <div>FIOR</div>
+                        <div  className='apesItemUpperDiv1Txt'>FIOR</div>
                         <img src={fiorImg} alt="fior-img" />
                     </div>
                 <div className='apesItemLowerDiv1'>
@@ -145,7 +147,7 @@ export default function MysteryBox()
                 </div>
                 <div className='apesItem2'>
                     <div className='apesItemUpperDiv2'>
-                        <div>XIS</div>
+                        <div  className='apesItemUpperDiv2Txt'>XIS</div>
                         <img src={xisImg} alt="xis-img" />
                     </div>
                 <div className='apesItemLowerDiv2'>
