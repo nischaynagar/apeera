@@ -6,10 +6,12 @@ export default function Token()
 {
     return (
         <div className='Token'>
+            <div className='coloredDiv1'></div>
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>LEARN ABOUT APE ERA</div>
             </div>
+            <div className='coloredDiv2'></div>
             <div className='membercntWrapper1'>
             <div className='membercntWrapper2'>
                 <div className='cntBox'>
@@ -74,6 +76,9 @@ export default function Token()
                     </div>
                 </div>
             </div>
+            <div style={{width: "100%"}}>
+                <div className='coloredDiv3'></div>
+            </div>
             <div className='supplyDivWrapper'>
                 <div className='supplyTxt'>SUPPLY</div>
                 <div className='supplyDescTxt'>
@@ -131,6 +136,9 @@ export default function Token()
                     </div>
                 </div>
                 </div>
+            </div>
+            <div style={{width: "100%"}}>
+                <div className='coloredDiv4'></div>
             </div>
             <div className='styledBtn1'>BUY&nbsp;$APERA</div>
             <div className='learnmoreTxt'>WANT TO LEARN MORE?</div>

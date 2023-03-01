@@ -13,31 +13,68 @@ export default function Farming()
 
     return (
         <div className='Farming'>
+            <div className='coloredDiv1'></div>
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>NFT STAKING</div>
                 <div className='insertTxt'>INSERT YOUR APE ERA NFTs AND GAIN STAKING POWER</div>
             </div>
+            <div className='coloredDiv2'></div>
             <div className='slotsWrapper'>
                 <div className='slot'>
                     <div className='slotheading'>TIER 1 SLOT</div>
-                    <div className='slotImgWrapper'></div>
+                    <div className='slotWrapper1'>
+                    <div className='slotWrapper2'>
+                    <div className='slotImgWrapper'>
+                        <div className='commonTxt'>COMMON</div>
+                        <div className='questionmark'>?</div>
+                    </div>
+                    </div>
+                    </div>
                 </div>
                 <div className='slot'>
                     <div className='slotheading'>TIER 2 SLOT</div>
-                    <div className='slotImgWrapper'></div>
+                    <div className='slotWrapper1'>
+                    <div className='slotWrapper2'>
+                    <div className='slotImgWrapper'>
+                        <div className='commonTxt'>COMMON</div>
+                        <div className='questionmark'>?</div>
+                    </div>
+                    </div>
+                    </div>
                 </div>
                 <div className='slot'>
                     <div className='slotheading'>TIER 3 SLOT</div>
-                    <div className='slotImgWrapper'></div>
+                    <div className='slotWrapper1'>
+                    <div className='slotWrapper2'>
+                    <div className='slotImgWrapper'>
+                        <div className='commonTxt'>COMMON</div>
+                        <div className='questionmark'>?</div>
+                    </div>
+                    </div>
+                    </div>
                 </div>
                 <div className='slot'>
                     <div className='slotheading'>TIER 4 SLOT</div>
-                    <div className='slotImgWrapper'></div>
+                    <div className='slotWrapper1'>
+                    <div className='slotWrapper2'>
+                    <div className='slotImgWrapper rare'>
+                        <div className='commonTxt'>RARE +</div>
+                        <div className='questionmark'>?</div>
+                    </div>
+                    </div>
+                    </div>
                 </div>
                 <div className='slot'>
                     <div className='slotheading'>TIER 5 SLOT</div>
-                    <div className='slotImgWrapper'></div>
+                    <div className='slotWrapper1'>
+                        <div className='slotWrapper2'>
+                        <div className='slotImgWrapper epic'>
+                            <div className='commonTxt'>EPIC +</div>
+                            <div className='questionmark'>?</div>
+                        </div>
+                        </div>
+                        </div>
                 </div>
             </div>
             <div className='setnftperiodTxt'>SET THE NFT STAKING PERIOD</div>

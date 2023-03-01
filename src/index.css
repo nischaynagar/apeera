@@ -28,6 +28,11 @@
     overflow-x: hidden;
     height: 100%;
   }
+
+  @font-face {
+    font-family: "blaze";
+    src: url('./components/assests/fonts/Blaze/OpenType-TT/Blaze.ttf');
+  }
  
   /* Set core body defaults */
   body {

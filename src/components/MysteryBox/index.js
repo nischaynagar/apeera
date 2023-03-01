@@ -9,10 +9,12 @@ export default function MysteryBox()
 {
     return (
         <div className='MysteryBox'>
+            <div className='coloredDiv1'></div>
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>MYSTERY BOXES</div>
             </div>
+            <div className='coloredDiv2'></div>
             <div className='mysteryBoxesWrapper'>
                 <div className='mysteryBoxItem'>
                     <img src={mysteryboxImg} alt="mystery-box-img" />
@@ -108,7 +110,10 @@ export default function MysteryBox()
                     </div>
                 </div>
             </div>
-            <div className='obtainableapesHeading'>OBTAINABLE APES</div>
+            
+            <div className='obtainableapesHeading'>
+            <div className='coloredDiv3'>
+            </div>OBTAINABLE APES</div>
             <div className='apesGrid'>
                 <div className='apesItem1'>
                     <div className='apesItemUpperDiv1'>
@@ -145,6 +150,7 @@ export default function MysteryBox()
                         <div  className='apesItemUpperDiv2Txt'>XIS</div>
                         <img src={xisImg} alt="xis-img" />
                     </div>
+                <div className='coloredDiv4'></div>
                 <div className='apesItemLowerDiv2'>
                 <div>FIOR IS A LEGENDARY MONKEY.<br/>HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. FIOR INCREASES YOUR STAKING POWER BY <span>7x</span>.</div>
                     <div className='epicBtn'>EPIC</div>

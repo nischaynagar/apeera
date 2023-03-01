@@ -4,23 +4,30 @@ import pancakeswapIcon from "../assests/images/icon-pancakeswap.svg";
 import bscscanIcon from "../assests/images/icon-bscscan.svg";
 import dexviewIcon from "../assests/images/icon-dexview.svg";
 import fiorIcon from "../assests/images/icon-fior.svg";
+import xisImg from "../assests/images/icon-xis.svg";
 import nextnftarrowIcon from "../assests/images/icon-nextnftarrow.svg";
 import mysteryboxImg from "../assests/images/icon-mysterybox.svg";
-// import homeBgImg1 from "../assests/images/home-bgimg1.svg";
+import homeBgImg1 from "../assests/images/home-bgimg1.svg";
+import homeBgImg2 from "../assests/images/home-bgimg2.svg";
+import homeBgImg3 from "../assests/images/home-bgimg3.svg";
+import homeBgImg4 from "../assests/images/home-bgimg4.svg";
+
 import dropdownArrowIcon from "../assests/images/icon-dropdownarrow.svg";
 import "./style.css";
 
 export default function Home()
 {
 
+    const [nftIndex, setnftIndex] = useState(true);
     
     const [isLegalDiscOpen, setIsLegalDiscOpen] = useState(false);
     const [isRiskDiscOpen, setIsRiskDiscOpen] = useState(false);
 
     return (
         <div className='home'>
+            <div className='coloredDiv1'></div>
             <div className='mainLogoWrapper'>
-                {/* <img className='homeBgImg1' src={homeBgImg1} alt="homeBgImg1" /> */}
+                <img className='homeBgImg1' src={homeBgImg1} alt="homeBgImg1" />
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>COLLECT & EARN WITH APE ERA!</div>
                 <div className='btnWrapper'>
@@ -29,25 +36,26 @@ export default function Home()
                     <div className='styledBtn1'>EARN&nbsp;$APERA</div>
                 </div>
             </div>
+            <div className='coloredDiv2'></div>
             <div className='nftCrousel'>
                 <div className='nftCrouselDescWrapper1'>
                 <div className='nftCrouselDescWrapper2'>
                     <div className='nftCrouselheading'>
-                        FIOR
+                       {nftIndex ? "FIOR" : "XIS"} 
                     </div>
                     <div className='nftCrouselDesc'>
-                        FIOR IS A LEGENDARY MONKEY.<br/> HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. CHEETio INCREASES YOUR STAKING POWER BY 
-                        <span> 7x</span>.
+                        {nftIndex ? "FIOR" : "XIS"}  IS A {nftIndex ? "LEGENDARY" : "EPIC"}  MONKEY.<br/> HE COMES FROM THE FIRE PLANET NURUWAR AND IS THE LAST SURVIVOR SINCE THE MURADIN ATTACK. CHEETio INCREASES YOUR STAKING POWER BY 
+                        <span className={nftIndex ? "legendaryspan" : "epicspan"}> 7x</span>.
                     </div>
-                    <div className='nftCrouselItemLegendary'>LEGENDARY</div>
+                    <div className={nftIndex ? "nftCrouselItemLegendary" : "nftCrouselItemEpic"}>{nftIndex ? "LEGENDARY" : "EPIC"}</div>
                 </div>
                 </div>
                 <div className='nftCrouselCenterDiv'>
-                    <img src={fiorIcon} alt="fior-img"/>
+                    <img src={nftIndex ? fiorIcon : xisImg} alt="fior-img"/>
                 </div>
                 <div className='nftCrouselSideDivWrapper'>
                     <div className='nftCrouselSideDiv'>
-                        <img className='nftCrouselnextArrow' src={nextnftarrowIcon} alt="nextnft-arrow-icon" />
+                        <img onClick={()=>setnftIndex(!nftIndex)} className='nftCrouselnextArrow' src={nextnftarrowIcon} alt="nextnft-arrow-icon" />
                         <div className='showAllnftBtn'>
                             <div>SHOW ALL NFTs</div>
                             <img src={nextnftarrowIcon} alt="nextnft-arrow-icon" />
@@ -56,10 +64,12 @@ export default function Home()
                 </div>
             </div>
             <div className='aboutApeEraWrapper'>
+            <img className='homeBgImg2' src={homeBgImg2} alt="homeBgImg2" />
                 <div>
                     <div className='aboutApeEraTxt'>ABOUT APE ERA AI NFTs</div> 
                     <div className='aboutApeEraDescTxt'>APE ERA IS A INNOVATIVE <span>AI NFT</span> PROJECT THAT COMBINES THE LIMITLESS POTENTIAL OF CRYPTO AND NFTs INTO ONE UNIQUE EXPERIENCE.</div>
                 </div>
+                <img className='homeBgImg3' src={homeBgImg3} alt="homeBgImg3" />
                 <div className='homefeatureGrid'>
                 <div className='homefeatureGridcol1'>
                 <div className='homefeatureItemWrapper1'>
@@ -78,6 +88,7 @@ export default function Home()
                         </div>
                     </div>
                 </div>
+                <img className='homeBgImg4' src={homeBgImg4} alt="homeBgImg4" />
                 </div>
                 <div className='homefeatureGridcol2'>
                 <div className='homefeatureItemWrapper1'>
@@ -121,6 +132,7 @@ export default function Home()
                 <div className='heading1'>APE ERA ECOSYSTEM<br/>AVAILABLE ON LAUNCH</div>
                 <div className='featureGrid'>
                 <div className='featureGridR1'>
+                <div className='coloredDiv3'></div>
                 <div className='featureItemWrapper1'>
                     <div className='featureItemWrapper2'>
                         <div className='featureItem'>
@@ -161,6 +173,7 @@ export default function Home()
             </div>
             <div>
                 <div className='heading1'>COMING SOON</div>
+                <div className='coloredDiv4'></div>
                 <div className='featureGridWrapper'>
                 <div className='featureGrid'>
                 <div className='featureGridR1'>
@@ -245,7 +258,7 @@ export default function Home()
             </div>
             <div className='connectingDiv3'></div>
             <div className='roadmapRow1'>
-
+            <div className='coloredDiv3'></div>
             <div className='roadmapItemWrapper2'>
             <div className='roadmapItem2'>
                 <div className='roadmapItemHeading'>2023</div>
@@ -273,17 +286,14 @@ export default function Home()
                 <img src={dexviewIcon} alt="dexviewIcon"/>
                 <img src={bscscanIcon} alt="bscscanIcon"/>
             </div>
-            <div className='findUsWrapper'>
-                <img src={pancakeswapIcon} alt="pancakeswapIcon"/>
-                <img src={dexviewIcon} alt="dexviewIcon"/>
-                <img src={bscscanIcon} alt="bscscanIcon"/>
-            </div>
             {/* <div className='placeholderpictureWrapper'>
             <div className='heading2'>**PLACEHOLDER PICTURES**</div>
             <div className='heading2'>WE WILL GIVE YOU MORE INFOS ON WHAT TO PUT HERE SOON.</div>
             </div> */}
             <div className='heading1'>DISCLAIMER</div>
             <div className='disclaimerDropdownWrapper'>
+            <div className='coloredDiv4'></div>
+
             <div className="disclaimerDropdown">
                 <div className="disclaimerDropdownheading">
                   <div>

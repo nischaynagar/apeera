@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 2em 2em;
     align-items: center;
+    position: relative;
 }
 
 .connectWalletBtn{
@@ -48,6 +49,7 @@
     display: flex;
     justify-content: center;
     gap: 20%;
+    z-index: 5;
 }
 
 .membercntTxtWrapper{
@@ -84,6 +86,7 @@
 .cntBox{
     display: flex;
     gap: 50px;
+    z-index: 5;
 }
 
 .memberdescTxt{
@@ -238,6 +241,7 @@
 .howtoBuyWrapper{
     margin-top: 1em;
     margin-bottom: 2em;
+    z-index: 5;
 }
 
 .howtoBuyTxt{
@@ -337,4 +341,49 @@
 
 .supplyplaceholderWrapper img{
     width: 250px;
+
 }
+
+
+.coloredDiv1{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(255, 0, 38, 0.55) 88.93%);
+    filter: blur(150px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translate(-106px, -80px);
+  }
+  
+  .coloredDiv2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(255, 0, 38, 0.55) 88.93%);
+    filter: blur(150px);
+    position: absolute;
+    transform: translate(15px, 389px);
+  }
+  
+  .coloredDiv3{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(255, 0, 38, 0.55) 88.93%);
+    filter: blur(150px);
+    position: absolute;
+    transform: translate(-224px, 110px);
+  }
+  
+  .coloredDiv4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(255, 0, 38, 0.55) 88.93%);
+    filter: blur(150px);
+    position: absolute;
+    right: 0;
+    transform: translate(0px, -162px);
+  }
