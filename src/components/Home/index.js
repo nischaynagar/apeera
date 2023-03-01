@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import connectWalletIcon from "../assests/images/icon-connectwallet.svg";
+import React, {  useState } from 'react';
 import mainLogo from "../assests/images/icon-mainLogo.svg";
 import pancakeswapIcon from "../assests/images/icon-pancakeswap.svg";
 import bscscanIcon from "../assests/images/icon-bscscan.svg";
@@ -7,7 +6,7 @@ import dexviewIcon from "../assests/images/icon-dexview.svg";
 import fiorIcon from "../assests/images/icon-fior.svg";
 import nextnftarrowIcon from "../assests/images/icon-nextnftarrow.svg";
 import mysteryboxImg from "../assests/images/icon-mysterybox.svg";
-import homeBgImg1 from "../assests/images/home-bgimg1.svg";
+// import homeBgImg1 from "../assests/images/home-bgimg1.svg";
 import dropdownArrowIcon from "../assests/images/icon-dropdownarrow.svg";
 import "./style.css";
 
@@ -20,10 +19,6 @@ export default function Home()
 
     return (
         <div className='home'>
-            <div className='connectWalletBtn'>
-                <img src={connectWalletIcon} alt="connect-wallet-icon" />
-                <div>CONNECT WALLET</div>
-            </div>
             <div className='mainLogoWrapper'>
                 {/* <img className='homeBgImg1' src={homeBgImg1} alt="homeBgImg1" /> */}
                 <img src={mainLogo} alt="main-logo"/>

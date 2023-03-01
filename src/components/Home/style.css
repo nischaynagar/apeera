@@ -5,24 +5,6 @@
     align-items: center;
 }
 
-.connectWalletBtn{
-    display: flex;
-    gap: 10px;
-    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
-    align-self: flex-end;
-    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
-    color: White;
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    text-transform: capitalize;
-    padding: 10px 20px;
-    width: -moz-fit-content;
-    width: fit-content;
-    cursor: pointer;
-}
 
 .mainLogoWrapper{
     display: flex;
@@ -62,6 +44,8 @@
     width: 180px !important;
     clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .btnWrapper{
@@ -105,7 +89,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
 }
 
 

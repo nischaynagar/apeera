@@ -9,23 +9,20 @@ import {
   BrowserRouter as Router,  
   Routes,  
   Route,  
-  Link,
 }   
 from 'react-router-dom';  
+import Navbar from './components/Navbar';
 
 function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const handleCloseSidebar = () =>{
     setSidebarOpen(false);
-  }
-  const handleOpenSidebar = () =>{
-    setSidebarOpen(true);
   }
   return (
     <div className="App">
       <Router>
+      <Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       {sidebarOpen && <Sidebar handleCloseSidebar={handleCloseSidebar} />}
-      <div onClick={handleOpenSidebar} className="sidebarOpenBtn">Open Sidebar</div>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route exact path="/token" element={<Token/>}/>

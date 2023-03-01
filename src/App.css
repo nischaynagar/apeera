@@ -6,10 +6,3 @@
     align-items: center;
     background: linear-gradient(182.93deg, #000000 -21.23%, #472828 132.22%);
 }
-
-.sidebarOpenBtn{
-  position: absolute;
-  top: 40px;
-  left: 20px;
-  cursor: pointer;
-}

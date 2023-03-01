@@ -1,5 +1,4 @@
 import React from 'react';
-import connectWalletIcon from "../assests/images/icon-connectwallet.svg";
 import mainLogo from "../assests/images/icon-mainLogo.svg";
 import "./style.css";
 
@@ -7,10 +6,6 @@ export default function Token()
 {
     return (
         <div className='Token'>
-            <div className='connectWalletBtn'>
-                <img src={connectWalletIcon} alt="connect-wallet-icon" />
-                <div>CONNECT WALLET</div>
-            </div>
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>LEARN ABOUT APE ERA</div>

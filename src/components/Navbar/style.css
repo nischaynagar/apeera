@@ -1,0 +1,89 @@
+.navWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1500px;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    background: black;
+    z-index: 50;
+    border-radius: 20px;
+}
+
+
+
+.connectWalletBtn{
+    display: flex;
+    gap: 10px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.sidebarOpenBtn{
+    display: flex;
+    gap: 10px;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    align-self: flex-end;
+    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+    color: White;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    width: -moz-fit-content;
+    width: fit-content;
+    cursor: pointer;
+}
+
+
+.primary-navigation {
+    display: none;
+    position: fixed;
+    padding: 5em 2em;
+    inset: 0rem 1em auto;
+    max-width: 15rem;
+    margin-left: auto;
+    background: black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0 0 0.75em rgb(0, 0, 0, 0.05);
+    z-index: 6;
+  }
+
+  .dimbg::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 5;
+    /* height: 100vh; */
+    background-image: linear-gradient(rgb(0 0 0 / 0.3), rgb(0 0 0 / 0.8));
+  }
+
+  .nav-list {
+    display: grid;
+    gap: var(--size-600);
+    font-weight: var(--fw-bold);
+  }
+
+  .primary-navigation[data-visible] {
+    display: block;
+  }
+  .toggleDisplay[data-visible]{
+    display: block;
+  }

@@ -1,7 +1,7 @@
 .Token{
     display: flex;
     flex-direction: column;
-    padding: 2em 5%;
+    padding: 2em 2em;
     align-items: center;
 }
 
@@ -43,20 +43,6 @@
     width: 90%;
 }
 
-.styledBtn1{
-    display: flex;
-    gap: 10px;
-    background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
-    color: White;
-    font-family: 'JetBrains Mono';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 24px;
-    text-transform: capitalize;
-    padding: 10px 15px;
-    width: 150px;
-}
 
 .btnWrapper{
     display: flex;
@@ -138,6 +124,8 @@
     padding: 10px 15px;
     width: -moz-fit-content;
     width: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
 .communityTxt{
@@ -148,9 +136,9 @@
     line-height: 160%;
 }
 
-.communityWrapper{
+/* .communityWrapper{
 
-}
+} */
 
 .communityIconWrapper{
     display: flex;

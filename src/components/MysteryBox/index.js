@@ -1,5 +1,4 @@
 import React from 'react';
-import connectWalletIcon from "../assests/images/icon-connectwallet.svg";
 import mainLogo from "../assests/images/icon-mainLogo.svg";
 import mysteryboxImg from "../assests/images/icon-mysterybox.svg";
 import fiorImg from "../assests/images/icon-fior.svg";
@@ -10,10 +9,6 @@ export default function MysteryBox()
 {
     return (
         <div className='MysteryBox'>
-            <div className='connectWalletBtn'>
-                <img src={connectWalletIcon} alt="connect-wallet-icon" />
-                <div>CONNECT WALLET</div>
-            </div>
             <div className='mainLogoWrapper'>
                 <img src={mainLogo} alt="main-logo"/>
                 <div className='mainLogoTxt'>MYSTERY BOXES</div>
