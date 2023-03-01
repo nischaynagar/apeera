@@ -1,7 +1,7 @@
 .home{
     display: flex;
     flex-direction: column;
-    padding: 2em 5%;
+    padding: 2em 2em;
     align-items: center;
 }
 
@@ -43,6 +43,10 @@
     width: 90%;
 }
 
+.homeBgImg1{
+  position: absolute; 
+}
+
 .styledBtn1{
     display: flex;
     gap: 10px;
@@ -57,6 +61,7 @@
     padding: 10px 15px;
     width: 180px !important;
     clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+    cursor: pointer;
 }
 
 .btnWrapper{
@@ -340,3 +345,344 @@
     gap: 10px;
     margin: 1em 0;
   }
+
+  .nftCrousel{
+    display: flex;
+    width: 100%;
+  }
+
+  .nftCrouselDescWrapper1{
+    width: 550px;
+    padding: 25px;
+    background: #040404;
+    box-shadow: 0px -20px 20px rgba(13, 15, 14, 0.5);
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  }
+
+  .nftCrouselDescWrapper2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+    clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+    padding: 15px 30px;
+    gap: 20px;
+  }
+
+  .nftCrouselheading{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+  }
+
+  .nftCrouselDesc{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    max-width: 270px;
+  }
+
+  .nftCrouselDesc span{
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+
+    color: #FFC700;
+  }
+
+  .nftCrouselItemLegendary{
+    background: linear-gradient(260.89deg, #FFC700 9.53%, #FF5C00 88.93%);
+    padding: 10px 20px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+
+    color: #181818;
+    clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+  }
+
+  .nftCrouselCenterDiv{
+    background: #040404;
+    flex-grow: 0.6;
+    height: 255px;
+    align-self: end;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  }
+
+  .nftCrouselCenterDiv img{
+    height: 400px;
+  }
+
+  .nftCrouselSideDivWrapper{
+    background: #040404;
+    flex-grow: 1;
+    transform: scaleX(-1);
+    clip-path: polygon( 0 0, 10% 0, 80% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 0% 100%, 0% 80% );
+  }
+
+.nftCrouselSideDiv{
+  transform: scaleX(-1);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: end;
+  padding: 10px 10px 20px 10px;
+}
+
+.nftCrouselnextArrow{
+  width: 70px;
+  align-self: end;
+  justify-self: end;
+  cursor: pointer;
+}
+
+
+.aboutApeEraWrapper{
+  margin-top: 2em;
+}
+
+.showAllnftBtn{
+  display: flex;
+  gap: 5px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  height: fit-content;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.showAllnftBtn img{
+  width: 17px;
+}
+
+
+.mystryboxCrousel{
+  display: flex;
+  width: 100%;
+}
+
+.mystryboxCrouselDescWrapper1{
+  width: 550px;
+  padding: 25px;
+  background: #040404;
+  box-shadow: 0px -20px 20px rgba(13, 15, 14, 0.5);
+  clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+}
+
+.mystryboxCrouselDescWrapper2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  background: linear-gradient(180deg, #181818 0%, rgba(24, 24, 24, 0) 100%);
+  clip-path: polygon( 0 0, 10% 0, 90% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 10% 100%, 0% 80% );
+  padding: 15px 30px;
+  gap: 20px;
+}
+
+.mystryboxCrouselheading{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 160%;
+}
+
+.mystryboxCrouselDesc{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  max-width: 270px;
+}
+
+.mystryboxCrouselDesc span{
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+
+  color: #FFC700;
+}
+
+.mystryboxCrouselItemLegendary{
+  background: linear-gradient(260.89deg, #FFC700 9.53%, #FF5C00 88.93%);
+  padding: 10px 20px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+
+  color: #181818;
+  clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+}
+
+.mystryboxCrouselCenterDiv{
+  background: #040404;
+  flex-grow: 0.6;
+  height: 255px;
+  align-self: end;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.mystryboxCrouselCenterDiv img{
+  height: 280px;    
+  align-self: normal;
+}
+
+.mystryboxCrouselSideDivWrapper{
+  background: #040404;
+  flex-grow: 1;
+  transform: scaleX(-1);
+  clip-path: polygon( 0 0, 10% 0, 80% 0%, 100% 20%, 100% 100%, 100% 100%, 100% 100%, 0% 100%, 0% 80% );
+}
+
+.mystryboxCrouselSideDiv{
+  transform: scaleX(-1);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-content: end;
+  padding: 20px 0;
+}
+
+.mystryboxCrouselnextArrow{
+  width: 70px;
+  align-self: end;
+  justify-self: end;
+  cursor: pointer;
+}
+
+.showAllraritiesBtn{
+  display: flex;
+  gap: 5px;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  height: fit-content;
+  align-self: flex-end;
+  align-items: center;
+}
+
+.showAllraritiesBtn img{
+  width: 17px;
+}
+
+.buymysteryBoxBtn{
+  display: flex;
+  gap: 10px;
+  clip-path: polygon( 0 0, 10% 0, 85% 0%, 100% 40%, 100% 100%, 100% 100%, 100% 100%, 15% 100%, 0% 65% );
+  background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+  color: White;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  cursor: pointer;
+}
+
+
+
+.disclaimerDropdown{
+  display: flex;
+  flex-direction: column;
+  background: #3B1D1E;
+  gap: 5px;
+  padding: 1em 1em;
+  width: 600px;
+  box-shadow: inset 0px 0px 30px rgb(255 255 255 / 5%), inset 0px 2px 2px rgb(255 255 255 / 15%);
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
+
+
+.disclaimerDropdownheading{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+
+.disclaimerDropdownheading-content{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+
+.dropdown-arrowicon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 4px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-arrowicon:hover{
+  background-color: rgba(153, 153, 153, 0.25);
+}
+
+
+.disclaimerDropdownWrapper{
+  background: linear-gradient(260.89deg, #E30022 9.53%, rgba(227, 0, 34, 0.55) 88.93%);
+  padding: 3px;
+  border-radius: 10px;
+  margin: 0.5em 0;
+}
+
+.disclaimerDropdowntxtContent{
+    text-align: left;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: capitalize;
+}

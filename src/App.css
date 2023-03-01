@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    background: linear-gradient(182.93deg, #000000 -21.23%, #472828 132.22%);
 }
 
 .sidebarOpenBtn{
